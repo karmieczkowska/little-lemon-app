@@ -23,3 +23,15 @@ button {
     background-color: cadetblue;
     border-radius: 10px;
 }
+
+.testimonials {
+    justify-content: center;
+}
+
+.opinions {
+    display: flex;
+}
+
+.user {
+    display: flex;
+}

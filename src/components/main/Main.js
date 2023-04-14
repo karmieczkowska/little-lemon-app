@@ -1,5 +1,10 @@
 import './main.css'
-import HeroImage from './restauranfood.jpg'
+import HeroImage from '../../assets/restaurantfood.jpg'
+import User1 from '../../assets/person1.jpg'
+import User2 from '../../assets/person2.jpg'
+import User3 from '../../assets/person3.jpg'
+import User4 from '../../assets/person4.jpg'
+import Star from '../../assets/Star.jpg'
 
 
 const Main = () => (
@@ -53,12 +58,49 @@ const Main = () => (
             </div>
         </section>
         <section className="testimonials">
-           <h1>testimonials</h1>
-           <div>
-            <div>
-                
+           <h1>Testimonials</h1>
+           <div className='opinions'>
+                <div className='rating'>
+                    <div className='stars'>
+                        <img src={Star} alt='Star' width={20}/>
+                    </div>
+                    <div className='user'>
+                        <img src={User1} alt='user photo' width={100}/>
+                        <h3>Name</h3>
+                    </div>
+                    <p>Opinion Lorem ipsum</p>
+                </div>
+                <div className='rating'>
+                    <div className='stars'>
+                        <img src={Star} alt='Star' width={20}/>
+                    </div>
+                    <div className='user'>
+                        <img src={User2} alt='user photo' width={100}/>
+                        <h3>Name</h3>
+                    </div>
+                    <p>Opinion Lorem ipsum</p>
+                </div>
+                <div className='rating'>
+                    <div className='stars'>
+                        <img src={Star} alt='Star' width={20}/>
+                    </div>
+                    <div className='user'>
+                        <img src={User3} alt='user photo' width={100}/>
+                        <h3>Name</h3>
+                    </div>
+                    <p>Opinion Lorem ipsum</p>
+                </div>
+                <div className='rating'>
+                    <div className='stars'>
+                        <img src={Star} alt='Star' width={20}/>
+                    </div>
+                    <div className='user'>
+                        <img src={User4} alt='user photo' width={100}/>
+                        <h3>Name</h3>
+                    </div>
+                    <p>Opinion Lorem ipsum</p>
+                </div>
             </div>
-           </div>
         </section>
         <section className="about">
 

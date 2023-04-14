@@ -1,4 +1,4 @@
-import Logo from './Logo.jpg'
+import Logo from '../../assets/Logo.jpg'
 
 const Header = () => (
     <div className = 'nav-bar'>
