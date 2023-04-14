@@ -1,0 +1,25 @@
+.hero-background {
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-content {
+    text-align: left;
+}
+
+.highlights-title {
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+}
+
+.dishes {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: cadetblue;
+    border-radius: 10px;
+}
