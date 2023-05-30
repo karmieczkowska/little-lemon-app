@@ -1,9 +1,9 @@
+import React from 'react'
 
-const Footer = () => (
-    <div>
-        Footer
-        {/* <img src={} alt="Footer logo"></img> */}
-    </div>
-)
+function Footer() {
+  return (
+    <div>Footer</div>
+  )
+}
 
 export default Footer
