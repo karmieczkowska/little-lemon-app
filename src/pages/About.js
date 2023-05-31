@@ -1,8 +1,11 @@
 import React from 'react'
+import ImageGallery from '../components/ImageGallery'
 
 function About() {
   return (
-    <div>About</div>
+    <div>
+      <ImageGallery />
+    </div>
   )
 }
 

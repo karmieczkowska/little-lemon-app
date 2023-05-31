@@ -2,6 +2,40 @@ import Bruchetta from "../../assets/bruchetta.jpg";
 import GreekSalad from "../../assets/greek salad.jpg";
 import LemonDesset from "../../assets/lemon-dessert.jpg";
 
+import Img1 from "../../assets/restaurant.jpg";
+import Img2 from "../../assets/restaurantfood.jpg";
+import Img3 from "../../assets/restaurant.jpg";
+import Img4 from "../../assets/bruchetta.jpg";
+import Img5 from "../../assets/greek salad.jpg";
+import Img6 from "../../assets/lemon-dessert.jpg";
+
+const GalleryPhoto = [
+    {
+        id:1,
+        imgSrc: Img1
+    },
+    {
+        id:2,
+        imgSrc: Img2
+    },
+    {
+        id:3,
+        imgSrc: Img3
+    },
+    {
+        id:4,
+        imgSrc: Img4
+    },
+    {
+        id:5,
+        imgSrc: Img5
+    },
+    {
+        id:6,
+        imgSrc: Img6
+    }
+]
+
 const MenuData = [
     {
         title: "Bruchetta",
@@ -191,5 +225,6 @@ export {
     PizzaData,
     BeveragesDataLeft,
     BeveragesDataMiddle,
-    BeveragesDataRight
+    BeveragesDataRight,
+    GalleryPhoto
 };
