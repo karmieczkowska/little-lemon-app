@@ -38,48 +38,111 @@
 // export default Navbar;
 
 
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import "../styles/Navbar.css";
-import { FaBars, FaTimes } from 'react-icons/fa';
+// import React, { useState } from 'react';
+// import { Link } from 'react-router-dom';
+// import "../styles/Navbar.css";
+// import { FaBars, FaTimes } from 'react-icons/fa';
 
+
+// function Navbar() {
+
+//   const [click, setClick] = useState(false);
+//   const handleClick = () => setClick(!click);
+
+//   return (
+//     <div className="header">
+//       <Link to="/">
+//         <h1>Logo</h1>
+//       </Link>
+//       <ul className={click ? "nav-menu active" : "nav-menu" }>
+//         <li>
+//           <Link to="/">Home</Link>
+//         </li>
+//         <li>
+//           <Link to="/about">About</Link>
+//         </li>
+//         <li>
+//           <Link to="/menu">Menu</Link>
+//         </li>
+//         <li>
+//           <Link to="/reservations">Reservations</Link>
+//         </li>
+//         <li>
+//           <Link to="/login">Login</Link>
+//         </li>
+//       </ul>
+//       <div className="hamburger" onClick={handleClick}>
+//         {click ? (
+//         <FaTimes size={20} style={{color: "#fff"}} />
+//         ) : (
+//         <FaBars size={20} style={{color: "#fff"}} />
+//         )}
+//       </div>
+//     </div>
+//   )
+// }
+
+// export default Navbar
+
+import { useEffect, useRef, useState } from "react";
+import { Link, useLocation } from 'react-router-dom';
+import { FaBars, FaTimes } from "react-icons/fa";
+import "../styles/Navbar.css";
+
+import Logo from "../assets/Logo.jpg"
 
 function Navbar() {
+  const navRef = useRef();
 
-  const [click, setClick] = useState(false);
-  const handleClick = () => setClick(!click);
+  const location = useLocation();
 
-  return (
-    <div className="header">
-      <Link to="/">
-        <h1>Logo</h1>
-      </Link>
-      <ul className={click ? "nav-menu active" : "nav-menu" }>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/menu">Menu</Link>
-        </li>
-        <li>
-          <Link to="/reservations">Reservations</Link>
-        </li>
-        <li>
-          <Link to="/login">Login</Link>
-        </li>
-      </ul>
-      <div className="hamburger" onClick={handleClick}>
-        {click ? (
-        <FaTimes size={20} style={{color: "#fff"}} />
-        ) : (
-        <FaBars size={20} style={{color: "#fff"}} />
-        )}
-      </div>
-    </div>
-  )
+  const showNavbar = () => {
+		navRef.current.classList.toggle(
+			"responsive_nav"
+		);
+	};
+
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+	if(window.scrollY >= 100) {
+		setColor(true);
+	} else {
+		setColor(false);
+	}
+  };
+
+  window.addEventListener("scroll", changeColor);
+
+  useEffect(() => {
+    showNavbar(false);
+  }, [location]);
+
+
+	return (
+		<header className={color ? "header-bg" : "header"}>
+			<h3 className="logo"> <Link to="/"> <img src={Logo} alt="Little Lemon Logo" style={{maxWidth: 100}}/> </Link></h3>
+			<nav ref={navRef} className="links">
+        <Link to="/"> Home </Link>
+        <Link to="/about"> About </Link>
+        <Link to="/menu"> Menu </Link>
+        <Link to="/reservations"> Reservations </Link>
+        <button
+          className="nav-btn nav-close-btn"
+          onClick={showNavbar}
+        >
+					<FaTimes />
+				</button>
+			</nav>
+			<button
+				className="nav-btn"
+				onClick={showNavbar}
+      >
+				<FaBars />
+			</button>
+		</header>
+	);
 }
 
-export default Navbar
+
+
+export default Navbar;

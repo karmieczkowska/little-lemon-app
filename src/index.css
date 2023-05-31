@@ -7,10 +7,6 @@
   font-family: "Titillium Web", sans-serif;
 }
 
-body {
-  background: black;
-  color: white;
-}
 
 :root {
 	--mainColor: rgb(73, 94, 87);
@@ -22,12 +18,23 @@ body {
 }
 
 h1, h4, p, a {
-  color: var(--textColorLight);
+  color: var(--textColor);
   text-decoration: none;
 }
 
 ul {
   list-style-type: none;
+}
+
+.heading-secondary {
+  font-size: 28px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+.heading-secondary span {
+  font-weight: 600;
 }
 
 .btn {
@@ -51,3 +58,31 @@ ul {
   color:rgb(237, 239, 238);
   transition: 0.3s;
 }
+
+
+
+/* Used in Menu:  */
+
+.section {
+  padding: 70px 0;
+}
+
+.container {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+@media screen and (max-width: 640px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+}
+

@@ -1,13 +1,11 @@
-import "../styles/HeroSection.css";
+import "../../styles/HeroSection.css";
 
 import React from 'react'
 
 function HeroSection() {
   return (
     <div className="hero">
-        <div className="mask">
-
-        </div>
+            HeroSection
     </div>
   )
 }

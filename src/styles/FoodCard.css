@@ -1,0 +1,39 @@
+.specials {
+    width: 100%;
+    padding: 6rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+}
+
+.specials-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+}
+
+.card {
+    border: 1px solid var(--mainColorLight);
+    text-align: center;
+    color: var(--textColor);
+}
+
+.card img {
+    max-width:100%;
+}
+
+@media screen and (max-width: 950px) {
+    .specials-container {
+        max-width: 90%;
+        margin: 10%;
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+    }
+}

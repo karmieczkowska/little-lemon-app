@@ -1,0 +1,11 @@
+.menu {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+@media screen and (max-width: 900px) {
+    .menu {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
