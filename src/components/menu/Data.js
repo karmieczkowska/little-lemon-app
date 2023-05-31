@@ -176,7 +176,7 @@ const BeveragesDataRight = [
         price: "4.50",
     },
     {
-        title: "Lemonade",
+        title: "Homemade Lemonade",
         description: "300ml",
         price: "6.50",
     }
