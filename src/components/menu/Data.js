@@ -4,35 +4,79 @@ import LemonDesset from "../../assets/lemon-dessert.jpg";
 
 import Img1 from "../../assets/restaurant.jpg";
 import Img2 from "../../assets/restaurantfood.jpg";
-import Img3 from "../../assets/restaurant.jpg";
+import Img3 from "../../assets/restaurant1.jpg";
 import Img4 from "../../assets/bruchetta.jpg";
 import Img5 from "../../assets/greek salad.jpg";
 import Img6 from "../../assets/lemon-dessert.jpg";
+import Img7 from "../../assets/pasta.jpg";
+import Img8 from "../../assets/chef1.jpg";
+
+
+import slide1 from "../../assets/1(1).jpg"
+import slide2 from "../../assets/2(1).jpg"
+import slide3 from "../../assets/3(1).jpg"
+import slide4 from "../../assets/4(1).jpg"
+import slide5 from "../../assets/5(1).jpg"
+import slide6 from "../../assets/6(1).jpg"
+import slide7 from "../../assets/7(1).jpg"
+import slide8 from "../../assets/8(1).jpg"
+import slide9 from "../../assets/9(1).jpg"
+import slide10 from "../../assets/10(1).jpg"
 
 const GalleryPhoto = [
     {
-        id:1,
         imgSrc: Img1
     },
     {
-        id:2,
         imgSrc: Img2
     },
     {
-        id:3,
         imgSrc: Img3
     },
     {
-        id:4,
         imgSrc: Img4
     },
     {
-        id:5,
         imgSrc: Img5
     },
     {
-        id:6,
         imgSrc: Img6
+    },
+    {
+        imgSrc: Img7
+    },
+    {
+        imgSrc: Img8
+    },
+    {
+        imgSrc: slide1
+    },
+    {
+        imgSrc: slide2
+    },
+    {
+        imgSrc: slide3
+    },
+    {
+        imgSrc: slide4
+    },
+    {
+        imgSrc: slide5
+    },
+    {
+        imgSrc: slide6
+    },
+    {
+        imgSrc: slide7
+    },
+    {
+        imgSrc: slide8
+    },
+    {
+        imgSrc: slide9
+    },
+    {
+        imgSrc: slide10
     }
 ]
 

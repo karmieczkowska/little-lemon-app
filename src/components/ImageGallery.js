@@ -25,7 +25,7 @@ function ImageGallery() {
             {GalleryPhoto.map((item, i) => {
                 return (
                     <div className="pictures" key={i} onClick={()=> getImg(item.imgSrc)} >
-                        <img src={item.imgSrc} style={{width: '100%'}} alt=""/>
+                        <img src={item.imgSrc} style={{width: '100%'}} loading="lazy" alt=""/>
                     </div>
                 )
             })}
