@@ -3,12 +3,18 @@
     padding: 6rem 1rem;
     display: flex;
     flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+    background: linear-gradient(rgba(73, 94, 87, .7), white);
+    position: relative;
+    margin-bottom: 100px;
 }
 
-.heading {
+.specials .heading {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .specials-container {
@@ -19,14 +25,21 @@
     column-gap: 40px;
 }
 
-.card {
-    border: 1px solid var(--mainColorLight);
+.specials-container .card {
     text-align: center;
     color: var(--textColor);
+    padding: 10px;
+    border-radius: 10%;
 }
 
-.card img {
+.specials-container .card img {
     max-width:100%;
+    border-radius: 10% 10% 0 0;
+}
+
+.specials-container .card:hover {
+    box-shadow: 10px 5px 5px rgba(73, 94, 87, .5);
+    background-color: var(--textColorLight);
 }
 
 @media screen and (max-width: 950px) {

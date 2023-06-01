@@ -12,7 +12,8 @@ function Menu () {
 
   return (
     <div>
-      <HeroSectionComponent heading="MENU"
+      <HeroSectionComponent 
+        heading="MENU"
         text="All dishes are freshly prepared with carefully selected ingredients"
       />
       <div className="menu">

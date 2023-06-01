@@ -89,7 +89,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { FaBars, FaTimes } from "react-icons/fa";
 import "../styles/Navbar.css";
 
-import Logo from "../assets/Logo.jpg"
+import Logo from "../assets/Logo.png"
 
 function Navbar() {
   const navRef = useRef();
@@ -120,25 +120,25 @@ function Navbar() {
 
 	return (
 		<header className={color ? "header-bg" : "header"}>
-			<h3 className="logo"> <Link to="/"> <img src={Logo} alt="Little Lemon Logo" style={{maxWidth: 100}}/> </Link></h3>
+			<h3 > <Link to="/"> <img src={Logo} alt="Little Lemon Logo" style={{maxWidth: 100}} className="logo"/> </Link></h3>
 			<nav ref={navRef} className="links">
-        <Link to="/"> Home </Link>
-        <Link to="/about"> About </Link>
-        <Link to="/menu"> Menu </Link>
-        <Link to="/reservations"> Reservations </Link>
-        <button
-          className="nav-btn nav-close-btn"
-          onClick={showNavbar}
-        >
+				<Link to="/"> Home </Link>
+				<Link to="/about"> About </Link>
+				<Link to="/menu"> Menu </Link>
+				<Link to="/reservations"> Reservations </Link>
+				<button
+				className="nav-btn nav-close-btn"
+				onClick={showNavbar}
+				>
 					<FaTimes />
 				</button>
 			</nav>
 			<button
 				className="nav-btn"
 				onClick={showNavbar}
-      >
-				<FaBars />
-			</button>
+				>
+					<FaBars />
+				</button>
 		</header>
 	);
 }

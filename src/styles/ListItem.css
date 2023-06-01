@@ -10,7 +10,7 @@
 .list-items ul li {
     display: flex;
     padding: 10px 5px;
-    border-bottom: 1px dashed pink;
+    border-bottom: 1px dashed var(--mainColorLight);
 }
 
 .list-items ul li h3 {

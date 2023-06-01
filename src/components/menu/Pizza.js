@@ -12,7 +12,7 @@ function Pizza() {
         <h1 className="heading-secondary">
             <span>PI</span>zza
         </h1>
-        <div class="grid-container">
+        <div className="grid-container">
             <div>
                 <img src={pizzaImage} alt="pizza items"/>
             </div>

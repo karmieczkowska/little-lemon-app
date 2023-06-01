@@ -1,0 +1,34 @@
+/* .reservations {
+    position: relative;
+    top: 200px;
+} */
+
+.reservations {
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+    top: 90px;
+}
+
+.reservations::before {
+    content: "";
+    background: url(https://images.unsplash.com/photo-1532644440111-bc94f97955c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80) ;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.reservations .text {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: var(--textColorLight);
+    position: relative;
+    top: 100px;
+}
