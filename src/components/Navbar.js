@@ -120,9 +120,9 @@ function Navbar() {
 
 	return (
 		<header className={color ? "header-bg" : "header"}>
-			<h3 > <Link to="/"> <img src={Logo} alt="Little Lemon Logo" style={{maxWidth: 100}} className="logo"/> </Link></h3>
+			<h3 > <Link to="/little-lemon-app"> <img src={Logo} alt="Little Lemon Logo" style={{maxWidth: 100}} className="logo"/> </Link></h3>
 			<nav ref={navRef} className="links">
-				<Link to="/"> Home </Link>
+				<Link to="/little-lemon-app"> Home </Link>
 				<Link to="/about"> About </Link>
 				<Link to="/menu"> Menu </Link>
 				<Link to="/reservations"> Reservations </Link>
