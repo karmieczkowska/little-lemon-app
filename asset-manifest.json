@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/karmieczkowska/little-lemon-app/static/css/main.9cfaa3a9.css",
+    "main.js": "/karmieczkowska/little-lemon-app/static/js/main.59a4c9fb.js",
+    "static/js/787.c0b67421.chunk.js": "/karmieczkowska/little-lemon-app/static/js/787.c0b67421.chunk.js",
+    "static/media/greek salad.jpg": "/karmieczkowska/little-lemon-app/static/media/greek salad.bed423a1fab5b210e347.jpg",
+    "static/media/restaurantfood.jpg": "/karmieczkowska/little-lemon-app/static/media/restaurantfood.e8abf5b772b6817189aa.jpg",
+    "static/media/restaurant.jpg": "/karmieczkowska/little-lemon-app/static/media/restaurant.324d0f99bdf19400a0f7.jpg",
+    "static/media/restaurant1.jpg": "/karmieczkowska/little-lemon-app/static/media/restaurant1.f174e14d3ae49a41450e.jpg",
+    "static/media/chef1.jpg": "/karmieczkowska/little-lemon-app/static/media/chef1.35b9eff8e69f8bdb9540.jpg",
+    "static/media/pizza.jpg": "/karmieczkowska/little-lemon-app/static/media/pizza.20a614879a8619fc1ca8.jpg",
+    "static/media/bruchetta.jpg": "/karmieczkowska/little-lemon-app/static/media/bruchetta.ab493105222523ef437b.jpg",
+    "static/media/pasta.jpg": "/karmieczkowska/little-lemon-app/static/media/pasta.a79679d5d07234aed0ca.jpg",
+    "static/media/lemon-dessert.jpg": "/karmieczkowska/little-lemon-app/static/media/lemon-dessert.4e3613c48a94d7592c02.jpg",
+    "static/media/6(1).jpg": "/karmieczkowska/little-lemon-app/static/media/6(1).0989dc5026f30869a090.jpg",
+    "static/media/1(1).jpg": "/karmieczkowska/little-lemon-app/static/media/1(1).8d1b2b4faa18ae369f6b.jpg",
+    "static/media/7(1).jpg": "/karmieczkowska/little-lemon-app/static/media/7(1).47ed1f0e5d223f1e33cc.jpg",
+    "static/media/2(1).jpg": "/karmieczkowska/little-lemon-app/static/media/2(1).16c5bbaf91293c90af58.jpg",
+    "static/media/9(1).jpg": "/karmieczkowska/little-lemon-app/static/media/9(1).1d7e95151b62945837fd.jpg",
+    "static/media/4(1).jpg": "/karmieczkowska/little-lemon-app/static/media/4(1).c31aace20d06261945ac.jpg",
+    "static/media/10(1).jpg": "/karmieczkowska/little-lemon-app/static/media/10(1).8adedb4a98d8fa7cdede.jpg",
+    "static/media/8(1).jpg": "/karmieczkowska/little-lemon-app/static/media/8(1).3dcd3066920b75347c32.jpg",
+    "static/media/5(1).jpg": "/karmieczkowska/little-lemon-app/static/media/5(1).bc866cce167a27d3dc7e.jpg",
+    "static/media/3(1).jpg": "/karmieczkowska/little-lemon-app/static/media/3(1).8d19a39dcff81332705c.jpg",
+    "static/media/Logo.png": "/karmieczkowska/little-lemon-app/static/media/Logo.c0938a6eeeceec23152c.png",
+    "index.html": "/karmieczkowska/little-lemon-app/index.html",
+    "main.9cfaa3a9.css.map": "/karmieczkowska/little-lemon-app/static/css/main.9cfaa3a9.css.map",
+    "main.59a4c9fb.js.map": "/karmieczkowska/little-lemon-app/static/js/main.59a4c9fb.js.map",
+    "787.c0b67421.chunk.js.map": "/karmieczkowska/little-lemon-app/static/js/787.c0b67421.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cfaa3a9.css",
+    "static/js/main.59a4c9fb.js"
+  ]
+}
