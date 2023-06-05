@@ -123,9 +123,9 @@ function Navbar() {
 			<h3 > <Link to="/little-lemon-app"> <img src={Logo} alt="Little Lemon Logo" style={{maxWidth: 100}} className="logo"/> </Link></h3>
 			<nav ref={navRef} className="links">
 				<Link to="/little-lemon-app"> Home </Link>
-				<Link to="/about"> About </Link>
-				<Link to="/menu"> Menu </Link>
-				<Link to="/reservations"> Reservations </Link>
+				<Link to="/little-lemon-app/about"> About </Link>
+				<Link to="/little-lemon-app/menu"> Menu </Link>
+				<Link to="/little-lemon-app/reservations"> Reservations </Link>
 				<button
 				className="nav-btn nav-close-btn"
 				onClick={showNavbar}

@@ -16,10 +16,10 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/little-lemon-app" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/menu" element={<Menu />} />
-          <Route path="/reservations" element={<Reservations />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/little-lemon-app/about" element={<About />} />
+          <Route path="/little-lemon-app/menu" element={<Menu />} />
+          <Route path="/little-lemon-app/reservations" element={<Reservations />} />
+          <Route path="/little-lemon-app/login" element={<Login />} />
         </Routes>
          <Footer />
        </div>
