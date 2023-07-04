@@ -9,13 +9,27 @@
 
 
 :root {
-	--mainColor: rgb(73, 94, 87);
+	--mainColor: #495f58;
 	--mainColorLight: rgb(244, 206, 20);
-	--secondaryColor: rgb(238, 153, 114);
+	--secondaryColor: #ee9972;
   --secondaryColorLight: rgb(251, 218, 187);
 	--textColor: rgb(51, 51, 51);
   --textColorLight: rgb(237, 239, 238);
 }
+
+.rdp {
+  --rdp-cell-size: 40px;
+  --rdp-caption-font-size: 18px;
+  --rdp-accent-color: #495f58;
+  --rdp-background-color: rgb(244, 206, 20);
+  --rdp-accent-color-dark: #354a43;
+  --rdp-background-color-dark: #293934;
+  --rdp-outline: 2px solid var(--rdp-accent-color); /* Outline border for focused elements */
+  --rdp-outline-selected: 3px solid var(--rdp-accent-color); /* Outline border for focused _and_ selected elements */
+
+  margin: 1em;
+}
+
 
 h1, h4, p, a {
   color: var(--textColor);
