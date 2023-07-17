@@ -17,19 +17,6 @@
   --textColorLight: rgb(237, 239, 238);
 }
 
-.rdp {
-  --rdp-cell-size: 40px;
-  --rdp-caption-font-size: 18px;
-  --rdp-accent-color: #495f58;
-  --rdp-background-color: rgb(244, 206, 20);
-  --rdp-accent-color-dark: #354a43;
-  --rdp-background-color-dark: #293934;
-  --rdp-outline: 2px solid var(--rdp-accent-color); /* Outline border for focused elements */
-  --rdp-outline-selected: 3px solid var(--rdp-accent-color); /* Outline border for focused _and_ selected elements */
-
-  margin: 1em;
-}
-
 
 h1, h4, p, a {
   color: var(--textColor);
@@ -60,6 +47,10 @@ ul {
   border: 1px solid var(--textColorLight);
   font-weight: 600;
   cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .btn-light {

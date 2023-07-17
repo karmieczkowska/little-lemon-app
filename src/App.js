@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import "./index.css";
-import "react-day-picker/dist/style.css"
+//import "react-day-picker/dist/style.css"
 
 //pages
 import Home from "./pages/Home";
@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Menu from "./pages/Menu";
 import Reservations from "./pages/Reservation";
 import Login from "./pages/Login";
+import ConfirmedBooking from "./pages/ConfirmedBooking";
 
 //components
 import Navbar from "./components/Navbar";
@@ -20,11 +21,12 @@ function App() {
       <div>
         <Navbar />
         <Routes>
-          <Route path="/little-lemon-app" element={<Home />} />
-          <Route path="/little-lemon-app/about" element={<About />} />
-          <Route path="/little-lemon-app/menu" element={<Menu />} />
-          <Route path="/little-lemon-app/reservations" element={<Reservations />} />
-          <Route path="/little-lemon-app/login" element={<Login />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/menu" element={<Menu />} />
+          <Route path="/reservations" element={<Reservations />} />
+          <Route path="/confirmation" element={<ConfirmedBooking />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
          <Footer />
        </div>
